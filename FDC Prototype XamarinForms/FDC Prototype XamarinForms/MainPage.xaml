@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FDCPrototypeXamarinForms.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout Margin="10,35,10,10">
+        <Label
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Text="Xamarin.Forms Prototype" />
+        <Grid>
+            <Label FontAttributes="Bold" Text="Name:" />
+            <Editor
+                x:Name="name"
+                Grid.Row="1"
+                Placeholder="Enter your name" />
+            <Label
+                Grid.Row="2"
+                FontAttributes="Bold"
+                Text="Message:" />
+            <Editor
+                x:Name="message"
+                Grid.Row="3"
+                Placeholder="Enter your message" />
+        </Grid>
+
+        <Grid>
+            <Button Clicked="OnSyncButtonClicked" Text="Sync" />
+            <Button
+                Grid.Column="1"
+                Clicked="OnClearButtonClicked"
+                Text="Clear" />
+            <Button
+                Grid.Row="1"
+                Clicked="OnGetFormsButtonClicked"
+                Text="Get" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                Clicked="OnSaveButtonClicked"
+                Text="Save" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

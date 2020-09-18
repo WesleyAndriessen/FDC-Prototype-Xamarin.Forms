@@ -1,6 +1,8 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-namespace FDCPrototypeXamarinForms
+namespace PrototypeXamarin
 {
     public partial class App : Application
     {

@@ -1,4 +1,4 @@
-﻿namespace FDCPrototypeXamarinForms.Models
+﻿namespace PrototypeXamarin.Models
 {
     public class Form
     {

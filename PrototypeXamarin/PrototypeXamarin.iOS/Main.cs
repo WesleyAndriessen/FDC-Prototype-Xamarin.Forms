@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace FDC_Prototype_XamarinForms.iOS
+namespace PrototypeXamarin.iOS
 {
     public class Application
     {

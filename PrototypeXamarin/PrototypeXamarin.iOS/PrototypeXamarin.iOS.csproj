@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B0AC64B2-1ACD-41D2-AA7B-C9916FDE63E7}</ProjectGuid>
+    <ProjectGuid>{2FFCFDF9-34DC-40DF-A5AE-B2F49F12C123}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FDC_Prototype_XamarinForms.iOS</RootNamespace>
+    <RootNamespace>PrototypeXamarin.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>FDC Prototype XamarinForms.iOS</AssemblyName>
+    <AssemblyName>PrototypeXamarin.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -128,9 +128,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\FDC Prototype XamarinForms\FDCPrototypeXamarinForms.csproj">
-      <Project>{DD38AE80-CCA8-49F3-A995-B1CF83FB8EEC}</Project>
-      <Name>FDCPrototypeXamarinForms</Name>
+    <ProjectReference Include="..\PrototypeXamarin\PrototypeXamarin.csproj">
+      <Project>{FBED38B9-F38D-4925-90DE-DD294231DAC8}</Project>
+      <Name>PrototypeXamarin</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

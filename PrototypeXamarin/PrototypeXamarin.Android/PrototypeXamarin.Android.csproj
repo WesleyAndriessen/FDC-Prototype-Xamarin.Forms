@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6472263D-06FF-4217-932D-03CA5DE86775}</ProjectGuid>
+    <ProjectGuid>{81CC07C8-56BF-4452-8A1E-EC19AC86A2A2}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FDC_Prototype_XamarinForms.Droid</RootNamespace>
-    <AssemblyName>FDC Prototype XamarinForms.Android</AssemblyName>
+    <RootNamespace>PrototypeXamarin.Droid</RootNamespace>
+    <AssemblyName>PrototypeXamarin.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -89,10 +89,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FDC Prototype XamarinForms\FDCPrototypeXamarinForms.csproj">
-      <Project>{DD38AE80-CCA8-49F3-A995-B1CF83FB8EEC}</Project>
-      <Name>FDCPrototypeXamarinForms</Name>
+    <ProjectReference Include="..\PrototypeXamarin\PrototypeXamarin.csproj">
+      <Project>{FBED38B9-F38D-4925-90DE-DD294231DAC8}</Project>
+      <Name>PrototypeXamarin</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
